@@ -1,14 +1,29 @@
 body {
     background-color: #2b0044;
-    color: #e3d5e9
+    color: #e3d5e9;
+    
 }
 
 .header {
     background-color: #5e0f8a;
     color: #e3d5e9;
     display: flex;
+    margin: -10px;
 }
 
 .header img {
     width: 5.5%;
+}
+
+@font-face {
+    font-family: 'RACING HARD';
+    src: url("C:/Users/beltr/OneDrive/Escritorio/SCRIPTS/CURRICULUM ALPHA/RACING HARD.ttf");
+}
+
+.nombre {
+    font-family: 'RACING HARD';
+    font-size: 100px;
+    margin-top: -120px;
+    color: #e5b4fa;
+    text-shadow: 10px 2px #d63ce9;
 }
