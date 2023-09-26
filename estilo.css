@@ -1,19 +1,62 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
-    background-color: #2b0044;
+    background-color: #1c002c;
     color: #e3d5e9;
+    font-family: monospace;
     
 }
 
+#backgroundvideo {
+    width: 100vw;
+    height: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.6;
+    filter: brightness(0.4);
+}
+
+/*AQUI VA EL HEADER*/
+
 .header {
-    background-color: #5e0f8a;
-    color: #e3d5e9;
+    background-color: #360053;
     display: flex;
-    margin: -10px;
+    justify-content: space-between;
+    height: 75px;
+}
+
+.header__son {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    color: #e3d5e9;
+    text-decoration: none;
+    font-family: 'RACING HARD';
+    font-size: 48px;
+    position: relative;
+    display: flex;
+    margin: auto;
+    padding: 10px 20px;
+    right: 12px;
+
 }
 
 .header img {
-    width: 5.5%;
+    width: 75px;
+    pad: 5px;
 }
+
+/*AQUI VAN LAS FUENTES*/
 
 @font-face {
     font-family: 'RACING HARD';
@@ -23,7 +66,8 @@ body {
 .nombre {
     font-family: 'RACING HARD';
     font-size: 100px;
-    margin-top: -120px;
+    position: relative;
     color: #e5b4fa;
     text-shadow: 10px 2px #d63ce9;
+    left: 30px;
 }
