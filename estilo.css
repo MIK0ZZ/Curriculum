@@ -51,6 +51,34 @@ body {
 
 }
 
+.menu__P {
+    color: #e3d5e9;
+    text-decoration:underline;
+    font-family: 'RACING HARD';
+    font-size: 48px;
+    position: relative;
+    display: flex;
+    margin: auto;
+    padding: 10px 20px;
+    right: 12px;
+    
+
+}
+
+.menu:hover{
+    color: #727272;
+    text-decoration: none;
+    font-family: 'RACING HARD';
+    font-size: 48px;
+    position: relative;
+    display: flex;
+    margin: auto;
+    padding: 10px 20px;
+    right: 12px;
+    
+
+}
+
 .header img {
     width: 75px;
     pad: 5px;
@@ -63,11 +91,21 @@ body {
     src: url("C:/Users/beltr/OneDrive/Escritorio/SCRIPTS/CURRICULUM ALPHA/RACING HARD.ttf");
 }
 
+/*AQUI VA EL NOMBRE*/
+
 .nombre {
     font-family: 'RACING HARD';
-    font-size: 100px;
+    font-size: 284px;
     position: relative;
     color: #e5b4fa;
     text-shadow: 10px 2px #d63ce9;
-    left: 30px;
+    left: 40px;
+}
+
+/*AQUI VA EL ABOUT*/
+
+.about {
+    position: relative;
+    left: 15px;
+    margin-right: 50%;
 }
