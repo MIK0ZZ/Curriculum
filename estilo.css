@@ -1,0 +1,14 @@
+body {
+    background-color: #2b0044;
+    color: #e3d5e9
+}
+
+.header {
+    background-color: #5e0f8a;
+    color: #e3d5e9;
+    display: flex;
+}
+
+.header img {
+    width: 5.5%;
+}
