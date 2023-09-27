@@ -27,6 +27,7 @@ body {
     display: flex;
     justify-content: space-between;
     height: 75px;
+    filter: blur(0.7px);
     
 }
 
@@ -96,6 +97,7 @@ body {
     font-size: 284px;
     color: #e5b4fa;
     text-shadow: 10px 2px #d63ce9;
+    filter: blur(0.7px);
     left: 40px;
 }
 
@@ -105,6 +107,8 @@ body {
     position: relative;
     left: 15px;
     margin-right: 50%;
+    filter: blur(0.7px);
+    filter: brightness(3px)
 }
 
 /*AQUI LAS REDES SOCIALES*/
@@ -116,10 +120,12 @@ body {
     margin-right: 86%;
     border-radius: 20px;
     text-align: left;
+    filter: blur(0.7px);
     
 }
 
 .r_sociales img {
     width: 52px;
     justify-content: space-between;
+    filter: blur(0.7px);
 }
