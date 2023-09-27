@@ -92,8 +92,8 @@ body {
 
 .nombre {
     font-family: 'RACING HARD';
+    padding-left: 35px;
     font-size: 284px;
-    position: relative;
     color: #e5b4fa;
     text-shadow: 10px 2px #d63ce9;
     left: 40px;
